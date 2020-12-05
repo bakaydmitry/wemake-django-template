@@ -1,8 +1,9 @@
 from django.contrib import admin
 
-from server.apps.{{cookiecutter.project_main_app_name}}.models import BlogPost
+# todo: replace _MODELNAME_
+from server.apps.{{cookiecutter.project_main_app_name}}.models import _MODELNAME_
 
 
-@admin.register(BlogPost)
-class BlogPostAdmin(admin.ModelAdmin[BlogPost]):
-    """Admin panel example for ``BlogPost`` model."""
+@admin.register(_MODELNAME_)
+class _MODELNAME_Admin(admin.ModelAdmin[_MODELNAME_]):
+    """Admin panel example for ``_MODELNAME_`` model."""
