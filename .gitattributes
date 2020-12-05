@@ -1,1 +1,1 @@
-{{cookiecutter.project_name}}/server/apps/main/templates/* linguist-vendored
+{{cookiecutter.project_git_repo}}/server/apps/main/templates/* linguist-vendored

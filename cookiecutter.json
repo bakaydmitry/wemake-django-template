@@ -1,12 +1,12 @@
 {
+  "project_git_repo": "test-project",
   "project_name": "test-project",
   "project_verbose_name": "Test Project",
-  "project_domain": "myapp.com",
-  "organization": "wemake.services",
+  "project_main_app_name": "test",
+  "project_domain": "localhost",
 
   "_extensions": ["jinja2_git.GitExtension"],
   "_copy_without_render": [
-    ".venv",
-    "docs/_build"
+    ".venv"
   ]
 }
