@@ -26,6 +26,7 @@ CHANGEME = '__CHANGEME__'
 # Get the root project directory
 PROJECT_DIRECTORY = os.path.realpath(os.path.curdir)
 PROJECT_NAME = '{{ cookiecutter.project_name }}'
+GIT_REPO = '{{ cookiecutter.project_git_repo }}'
 
 
 def _get_random_string(length=50):
@@ -74,9 +75,9 @@ def print_futher_instuctions():
     Your project {0} is created.
     Now you can start working on it:
 
-        cd {0}
+        cd {1}
     """)
-    print(message.format(PROJECT_NAME))  # noqa: WPS421
+    print(message.format(PROJECT_NAME, GIT_REPO))  # noqa: WPS421
 
 
 def copy_local_configuration():
