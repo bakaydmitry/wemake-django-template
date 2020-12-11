@@ -4,7 +4,7 @@
   "project_verbose_name": "Test Project",
   "project_main_app_name": "test",
   "project_domain": "localhost",
-  "project_authors": ["Dmitry Bakay <dmitry.bakay@x5.ru>"],
+  "project_authors": "Dmitry Bakay <dmitry.bakay@x5.ru>",
 
   "_extensions": ["jinja2_git.GitExtension"],
   "_copy_without_render": [
